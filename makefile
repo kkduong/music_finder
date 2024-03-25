@@ -16,3 +16,4 @@ clean:
 leak_check: catalog.o run_catalog.o
 	$(CC) catalog.o run_catalog.o -o $(EXE)
 	valgrind --leak-check=full ./$(EXE)
+	
