@@ -383,7 +383,7 @@ bool print_total_len(Playlist* arr, int size, int print, ofstream& file) {
             }
             print_to_screen(arr, i, 0, 4);
             cout << "-----------------------" << endl;
-            print++
+            print_count++;
         }
         /*if user chooses to print to file*/
         else {
